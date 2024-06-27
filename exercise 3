@@ -1,0 +1,17 @@
+START
+  SET numList = empty list
+  FOR i = 1 to 5 DO
+    Prompt user for a number (num)
+    Add num to numList
+  ENDFOR
+
+  SET sum = sum of all numbers in numList
+  SET average = sum / 5
+
+  SET minNum = minimum number in numList
+  SET maxNum = maximum number in numList
+
+  PRINT "The average of the five numbers is", average
+  PRINT "The smallest number entered is", minNum
+  PRINT "The largest number entered is", maxNum
+END
